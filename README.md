@@ -2,8 +2,9 @@
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
-https://tsykunov.ru/misha
+https://tsykunov.ru/misha-game
 
 Whac-a-mole игра про моего одногруппника Мишу. С вероятностью 10% может вылезти Кирилл. За него снимаются очки, потому что он не Миша.
 
