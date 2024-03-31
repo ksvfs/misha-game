@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Миша Гейм</title>
-    <link rel="stylesheet" href="styles/index.css" />
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="preload" href="images/kirill.webp" as="image" />
+    <link rel="preload" href="images/hammer-down.webp" as="image" />
+    <link rel="stylesheet" href="src/index.scss" />
   </head>
   <body>
     <h1>Миша Гейм</h1>
@@ -91,6 +93,7 @@
       <img class="record__icon" src="images/record.svg" alt="Рекорд" />
       <div class="record__points">0</div>
     </div>
+
     <div class="restart restart--bottom-right">
       <button class="restart__btn">
         <img class="restart__icon" src="images/restart.svg" alt="Заново" />
@@ -98,6 +101,6 @@
       <div class="restart__tooltip">[space]</div>
     </div>
 
-    <script src="js/index.js"></script>
+    <script type="module" src="src/index.js"></script>
   </body>
 </html>
