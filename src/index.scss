@@ -221,14 +221,17 @@ img {
 @media (width <= 500px) or (height <= 530px) {
   h1 {
     font-size: 8vmin;
+    font-size: 8dvmin;
   }
 
   .field {
     font-size: 3vmin;
+    font-size: 3dvmin;
   }
 
   .stats {
     font-size: 4vmin;
+    font-size: 4dvmin;
   }
 }
 
